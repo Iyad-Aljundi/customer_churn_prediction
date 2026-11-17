@@ -133,21 +133,20 @@ Die Modellergebnisse liefern Hinweise auf mögliche Ansatzpunkte für Customer-R
 
 ## Limitationen
 
-- **Synthetischer Datensatz**
+- **Synthetischer Datensatz**:
   Der Datensatz ist höchstwahrscheinlich synthetisch generiert. Reale Komplexitäten, Rauschen und unerwartete Verhaltensmuster können       dadurch nur eingeschränkt abgebildet werden.
   
-- **Keine eindeutige zeitliche Struktur**
+- **Keine eindeutige zeitliche Struktur**:
   Die Daten enthalten keine explizite Zeitachse. Daher ist nicht eindeutig nachvollziehbar, ob Merkmale wie Payment Delay zum             tatsächlichen Zeitpunkt einer Vorhersage bereits verfügbar gewesen wären.  
-
 Eine mögliche Informationsleckage kann deshalb nicht abschließend bestätigt oder ausgeschlossen werden.  
 
-- **Keine betriebswirtschaftliche Kostenfunktion**
+- **Keine betriebswirtschaftliche Kostenfunktion**:
   False Positives und False Negatives wurden nicht anhand konkreter finanzieller Auswirkungen bewertet.
    
-- **Keine Zeitreihen- oder Survival-Analyse**
+- **Keine Zeitreihen- oder Survival-Analyse**:
   Die Aufgabe wurde als klassisches binäres Klassifikationsproblem modelliert. Die Zeit bis zur Abwanderung wurde nicht berücksichtigt.
   
-- **Aggregierte Features**
+- **Aggregierte Features**:
   Die verwendeten Merkmale bestehen überwiegend aus aggregierten Kennzahlen. Detailliertere Verlaufs- und Interaktionsdaten könnten zusätzliche Informationen liefern.
   
 
